@@ -463,3 +463,30 @@ input[type="range"]::-moz-range-thumb {
   background: #ff4757;
   cursor: pointer;
 }
+
+/* reponse */
+@media screen and (max-width: 768px) {
+  body {
+    width: 90%; /* Cho body full màn hình */
+    margin: auto; /* Bỏ khoảng cách thừa */
+  }
+ 
+  .instagram{
+    display: none !important;
+  }
+  .tiktok{
+    display: none !important;
+  }
+  .facebook{
+    display: none !important;
+  }
+  .Theme{
+    display: none !important;
+  }
+  .contact{
+    display: none !important;
+  }
+  .scroll{
+    display: none !important;
+  }
+}
