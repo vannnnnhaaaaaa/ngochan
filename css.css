@@ -189,7 +189,7 @@ body{
     margin:50px 0px 50px 0px;
   }
   #home {
-    display: none;
+    display: block;
   }
   /* -------------home-------------------------- */
   /* --------------about------------------------- */
@@ -263,7 +263,7 @@ body{
   /* ----------------library------------- */
   #library {
   background-color: white;
-  display: block;
+  display: none;
   }
   
   
