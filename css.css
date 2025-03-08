@@ -432,7 +432,7 @@ input[type="range"] {
   margin-top: 20px;
   margin-left: 20px;
   -webkit-appearance: none; /* Bỏ kiểu mặc định của Webkit */
-  width: 90%;
+  width: 350px;
   height: 8px; /* Chiều cao của thanh trượt */
   border-radius: 5px; /* Bo góc của thanh trượt */
   background: #ddd; /* Màu nền của thanh */
@@ -488,5 +488,17 @@ input[type="range"]::-moz-range-thumb {
   }
   .scroll{
     display: none !important;
+  }
+  input[type="range"] {
+    margin-top: 20px;
+    margin-left: 20px;
+    -webkit-appearance: none; /* Bỏ kiểu mặc định của Webkit */
+    width: 90%;
+    height: 8px; /* Chiều cao của thanh trượt */
+    border-radius: 5px; /* Bo góc của thanh trượt */
+    background: #ddd; /* Màu nền của thanh */
+    outline: none; /* Bỏ viền outline khi focus */
+    opacity: 0.9;
+    transition: opacity 0.3s;
   }
 }
