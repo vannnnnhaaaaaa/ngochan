@@ -432,7 +432,7 @@ input[type="range"] {
   margin-top: 20px;
   margin-left: 20px;
   -webkit-appearance: none; /* Bỏ kiểu mặc định của Webkit */
-  width: 350px;
+  width: 90%;
   height: 8px; /* Chiều cao của thanh trượt */
   border-radius: 5px; /* Bo góc của thanh trượt */
   background: #ddd; /* Màu nền của thanh */

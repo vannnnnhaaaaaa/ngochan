@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function close(element) {
     const page = document.querySelector(element);
-
+    
     pages.forEach((page) => {
       page.style.display = "none";
     });

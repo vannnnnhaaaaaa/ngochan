@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Món quà nhỏ này là tấm lòng của a, hy vọng e sẽ thích</title>
     <link rel="stylesheet" href="css.css" />
-
+    <link rel="icon" type="image/png" href="image/favicon.ico">
+		  
+    
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -34,7 +36,12 @@
       <div class="photo icon">
         <i class="fas fa-images"></i>
       </div>
-      <div class="writing icon">
+      <div class="writing icon" onclick="chuyenTrang('writing.html')">
+        <script>
+          function chuyenTrang(url) {
+              window.location.href = url;
+          }
+      </script>
         <i class="fas fa-pen-nib"></i>
       </div>
       <div class="line"></div>
@@ -63,7 +70,7 @@
       <div class="introduce">
         <h1 id="Name">Ngọc Hân</h1>
         <p style="margin-bottom: 20px">
-          Designer by
+          Designed by
           <a href="https://www.facebook.com/profile.php?id=100028199375918"
             >Hà Phùng</a
           >
@@ -110,9 +117,9 @@
         <div class="play">
           <div class="contentsong">
             <p>Now Playing :</p>
-            <h1 id="songname">Có chàng trai viết lên cây</h1>
+            <h1 id="songname">Nơi tình yêu bắt đầu </h1>
             <p id="singername">
-              Hà Phùng(Loa bị rè nên có mấy tạp âm lúc đầu é !^.^!)
+              Singer: Hà Phùng
             </p>
           </div>
           <input
@@ -187,15 +194,13 @@
         <hr />
         <div class="handwritten">
           <p>
-            Xin chào! Tôi là Yến Huỳnh, 22 tuổi, hiện đang sống tại thành phố Hồ
-            Chí Minh. Tôi là một người yêu thích khám phá cuộc sống và luôn tìm
-            kiếm những điều mới mẻ . Tôi có niềm đam mê với ăn uống , du lịch ,
-            gặp gỡ bạn bè. Ngoài ra, tôi cũng thích tham gia vào các hoạt động
-            tập trung, tạo ra những kỷ niệm thú vị. Thời gian rảnh, tôi thích
-            đọc sách, xem phim. Đọc sách giúp tôi mở mang kiến thức và có những
-            trải nghiệm mới thông qua các câu chuyện. Tôi đặc biệt yêu thích các
-            thể loại tà răm :>>, và thường xuyên tìm kiếm những cuốn sách hay để
-            đọc.
+            Xin chào! 🌸 Tôi là Ngọc Hân, một cô gái 21 tuổi hiện đang sống và làm việc tại thành phố Hồ Chí Minh. Tôi luôn tràn đầy năng lượng và yêu thích khám phá những điều mới mẻ trong cuộc sống.
+
+            Với niềm đam mê ẩm thực, du lịch và gặp gỡ bạn bè, tôi luôn mong muốn trải nghiệm những món ăn ngon, những vùng đất mới và kết nối với những con người thú vị. Không chỉ vậy, tôi cũng thích tham gia các hoạt động tập thể, cùng nhau tạo nên những kỷ niệm đáng nhớ.
+            
+            Trong thời gian rảnh, tôi thường dành thời gian để đọc sách, xem phim, tận hưởng những câu chuyện ý nghĩa và học hỏi thêm nhiều điều bổ ích. Tôi đặc biệt yêu thích thể loại lãng mạn và trinh thám, luôn tìm kiếm những tác phẩm hấp dẫn để thư giãn.
+            
+            Cuộc sống đối với tôi là một hành trình đầy màu sắc, và tôi luôn sẵn sàng đón nhận những trải nghiệm mới với một nụ cười rạng rỡ. ✨💖
           </p>
           <div class="note">
             <div class="vertical_line"></div>
@@ -217,7 +222,7 @@
           </p>
         </div>
       </div>
-      <p style="margin: 30px 0px">Vài dòng thư tay viết vội ^.^</p>
+      <p style="margin: 30px 0px">Vài dòng thư tay viết vội ^.^ . Cái trên là a viết đại đại nhen :))</p>
 
       <footer>
         <h5 style="margin-bottom: 10px">Hân nehhh 😂</h5>
@@ -244,15 +249,18 @@
           "Trong cuộc sống, chúng ta thường trải qua những khoảnh khắc đáng nhớ,
           những kỷ niệm mà thời gian không thể xóa nhòa..."
         </p>
+        <p>
+          ở đây trước sẽ tính làm thiệt sinh động về kỷ niệm nhưng mà phải bỏ dở dang gòi TvT
+        </p>
         <input type="text" placeholder="search..." id="search" />
       </div>
 
       <div class="Celebrate" id="gionhaVanAn">
         <h2 id="head" style="font-size: 25px; margin: 25px 0px 0px 10px">
-          Kỷ Niệm
+          Kỷ Niệm 
         </h2>
         <h3 style="margin: 0px 0px 10px 20px">19/02/2025</h3>
-        <p>Sự kiện</p>
+        <p>Sự kiện lần đầu gặp người con gái a yêu </p>
         <p style="margin: 10px 0px">Một số hình ảnh đáng nhớ</p>
         <div class="pics">
           <div class="pic"><img src="anhbackground/anh1.jpg" alt="bia" /></div>
@@ -260,30 +268,34 @@
           <div class="pic"><img src="anhbackground/anh3.jpg" alt="" /></div>
           <div class="pic"><img src="anhbackground/anh4.jpg" alt="" /></div>
         </div>
+        <p>
+          Ở đây trước sẽ tính làm thiệt sinh động về kỷ niệm nhưng mà phải bỏ dở dang gòi TvT
+        </p>
       </div>
-
-      <div class="Celebrate" id="vungtau" style="margin: 20px 0">
+      <div class="Celebrate" id="gionhaVanAn">
         <h2 id="head" style="font-size: 25px; margin: 25px 0px 0px 10px">
-          Vũng Tàu
+          Kỷ Niệm
         </h2>
-        <h3 style="margin: 0px 0px 10px 20px">02/01/2023</h3>
-        <p>Thành Viên Tham Gia ...</p>
+        <h3 style="margin: 0px 0px 10px 20px">19/05/2025</h3>
+        <p>Sự kiện 3 tháng</p>
         <p style="margin: 10px 0px">Một số hình ảnh đáng nhớ</p>
         <div class="pics">
-          <div class="pic">
-            <img src="anhbackground/vungtau.jpg" alt="bia" />
-          </div>
-          <div class="pic"><img src="anhbackground/vungtau1.jpg" alt="" /></div>
-          <div class="pic"><img src="anhbackground/vungtau2.jpg" alt="" /></div>
+          <div class="pic"><img src="anhbackground/anh1.jpg" alt="bia" /></div>
+          <div class="pic"><img src="anhbackground/anh2.jpeg" alt="" /></div>
+          <div class="pic"><img src="anhbackground/anh3.jpg" alt="" /></div>
+          <div class="pic"><img src="anhbackground/anh4.jpg" alt="" /></div>
         </div>
+        <p>
+          Ở đây trước sẽ tính làm thiệt sinh động về kỷ niệm nhưng mà phải bỏ dở dang gòi
+        </p>
       </div>
+      
     </div>
 
     <div id="photo" class="page" style="margin-bottom: 100px">
       <h1 style="font-size: 30px; margin: 20px 0px">Ảnh chụp</h1>
       <p>
-        Những bức ảnh tớ chụp qua ống kính nhiệm màu, hoặc là đời sống thường
-        ngày.
+        Những bức ảnh anh thấy qua ống kính nhiệm màu, hoặc là đời sống thường ngày của người con gái a yêu
       </p>
       <hr />
       <div class="pictures">
@@ -300,7 +312,8 @@
       </div>
     </div>
 
-
+    
+  
     
   </body>
 </html>
